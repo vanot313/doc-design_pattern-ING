@@ -12,7 +12,7 @@ public class ObjectOne implements Prototype, Cloneable{
 
     @Override
     public Object cloneMe() throws CloneNotSupportedException{
-        /**
+        /*
          * 这里的 clone 对于基本数据类型是直接复制的，但对于对象是拷贝其地址
          */
         return (ObjectOne)clone();
